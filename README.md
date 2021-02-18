@@ -17,3 +17,4 @@ would also be a good idea as it adds necessary traceability.
 * Adding Swagger API documentation via annotations (for example, Springfox).
 * Due to the nature of this API and its operations: every endpoint should be secured, for example, with 
 Spring Security and the use of JSON Web Tokens.
+* Make sure that balance and transfer amounts never exceed 2 decimal places.
